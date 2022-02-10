@@ -30,7 +30,7 @@ function processData(allText) {
     console.log(".csv line count: " + quoteCount);
     console.log(".csv selected index: " + quoteIndex);
     console.log("selected line: " + lines[quoteIndex]);
-    console.log("topic: " + lines[quoteIndex].split(,).split(:)[0]);
+    console.log("topic: " + lines[quoteIndex].split(",").split(":")[0]);
 }
 
 function generateRandomInteger(max) {
