@@ -23,6 +23,12 @@ function processData(allText) {
             lines.push(tarr);
         }
     }
-    console.log("Testik")
-    alert(lines.join());
+    console.log(generateRandomInteger(10))
+    alert(generateRandomInteger(10))
+    alert(lines[0].join());
+}
+
+// Generate a number between 0 and max, including max
+function generateRandomInteger(max) {
+    return Math.floor(Math.random() * max) + 1;
 }
