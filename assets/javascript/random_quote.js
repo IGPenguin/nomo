@@ -25,7 +25,9 @@ function processData(allText) {
 }
     var quoteCount = lines.length;
     var quoteIndex = generateRandomInteger(quoteCount);
-    var selectedLine = lines[quoteIndex];
+    var selectedLine = String(lines[quoteIndex]);
+    var selectedTopic = String(selectedLine[0]);
+
 
     console.log("lines: " + lines.join());
     console.log(".csv line count: " + quoteCount);
@@ -33,7 +35,7 @@ function processData(allText) {
     console.log("selected line: " + selectedLine);
     console.log("selected line type: " + typeof selectedLine);
     console.log("selected topic with key: " + selectedLine.split(','));
-    console.log("topic: " + selectedLine.split(',').split(':'));
+    console.log("topic: " + selectedTopic.split(':'));
 }
 
 function generateRandomInteger(max) {
