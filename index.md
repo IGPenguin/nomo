@@ -1,7 +1,7 @@
 <br>
 <br>
 <p align="center">
-##💎 Welcome to Stashboard!<br>
+<h1>💎 Welcome to Stashboard!</h1><br>
 <br>
-###*An inspirational digital space.*
+<i>An inspirational digital space.</i><br>
 </p>
