@@ -31,6 +31,7 @@ function processData(allText) {
     console.log(".csv line count: " + quoteCount);
     console.log(".csv selected index: " + quoteIndex);
     console.log("selected line: " + selectedLine);
+    console.log("selected line type: " + typeof selectedLine);
     console.log("selected topic with key: " + selectedLine.split(','));
     console.log("topic: " + selectedLine.split(',').split(':'));
 }
