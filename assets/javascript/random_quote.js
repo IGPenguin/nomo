@@ -25,9 +25,9 @@ function processData(allText) {
 }
     var quoteIndex = generateRandomInteger(lines.length);
 
-    console.log(".csv line count: "lines.length);
-    console.log(".csv selected line: "lines.length);
-    console.log(".csv line: "lines[quoteIndex].join());
+    console.log(".csv line count: " + lines.length);
+    console.log(".csv selected line: " + quoteIndex);
+    console.log(".csv line: " + lines[quoteIndex].join());
 }
 
 function generateRandomInteger(max) {
