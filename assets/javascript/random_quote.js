@@ -1,8 +1,8 @@
 $(document).ready(function() {
     $.ajax({
         type: "GET",
-        url: "../../data/quotes.csv",
-        dataType: "cs",
+        url: "data/quotes.csv",
+        dataType: "csv",
         success: function(data) {processData(data);}
      });
 });
