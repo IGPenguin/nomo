@@ -23,8 +23,9 @@ function processData(allText) {
         lines.push(tarr);
     }
 }
-    console.log(lines.join())
-    console.log(generateRandomInteger(10))
+    var quoteIndex=generateRandomInteger(lines.length)
+
+    console.log(lines[quoteIndex].join())
 }
 
 function generateRandomInteger(max) {
