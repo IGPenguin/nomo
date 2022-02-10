@@ -25,14 +25,16 @@ function processData(allText) {
 }
     var quoteCount = lines.length;
     var quoteIndex = generateRandomInteger(quoteCount);
+    var selectedLine = lines[quoteIndex];
 
     console.log("lines: " + lines.join());
     console.log(".csv line count: " + quoteCount);
     console.log(".csv selected index: " + quoteIndex);
-    console.log("selected line: " + lines[quoteIndex]);
-    console.log("topic: " + lines[quoteIndex].split(',').split(':'));
+    console.log("selected line: " + selectedLine);
+    console.log("selected topic with key: " + selectedLine.split(','));
+    console.log("topic: " + selectedLine.split(',').split(':'));
 }
 
 function generateRandomInteger(max) {
-    return Math.floor(Math.random() * max) + 1;
+    return Math.floor(Math.random() * max);
 }
