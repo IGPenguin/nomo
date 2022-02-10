@@ -23,6 +23,6 @@ function processData(allText) {
             lines.push(tarr);
         }
     }
-    console.log(lines.join())
+    console.log("Testik")
     alert(lines.join());
 }
