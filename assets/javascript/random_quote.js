@@ -31,7 +31,7 @@ function processData(allText) {
     var selectedTopic = String(selectedTopicWithKey.split(":")[1]);
 
     var selectedTitleWithKey = String(selectedLine.split(",")[1]);
-    var selectedTitle = String(selectedTopicWithKey.split(":")[1]);
+    var selectedTitle = String(selectedTitleWithKey.split(":")[1]);
 
     console.log("lines: " + lines.join());
     console.log(".csv line count: " + quoteCount);
