@@ -23,5 +23,6 @@ function processData(allText) {
             lines.push(tarr);
         }
     }
-    alert(lines.join);
+    console.log(lines.join())
+    alert(lines.join());
 }
