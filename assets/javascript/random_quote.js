@@ -2,7 +2,7 @@ $(document).ready(function() {
     $.ajax({
         type: "GET",
         url: "data/quotes.csv",
-        dataType: "csv",
+        dataType: "text",
         success: function(data) {processData(data);}
      });
 });
