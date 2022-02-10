@@ -1,9 +1,7 @@
-alert("Test")
-
 $(document).ready(function() {
     $.ajax({
         type: "GET",
-        url: "data/quotes.csv",
+        url: "../../data/quotes.csv",
         dataType: "cs",
         success: function(data) {processData(data);}
      });
@@ -25,5 +23,5 @@ function processData(allText) {
             lines.push(tarr);
         }
     }
-    // alert(lines);
+    alert(lines.join);
 }
