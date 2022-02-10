@@ -27,7 +27,7 @@ function processData(allText) {
 
     console.log(".csv line count: " + lines.length);
     console.log(".csv selected line: " + quoteIndex);
-    console.log(".csv line: " + lines[quoteIndex].join());
+    console.log("lines: " + lines.join());
 }
 
 function generateRandomInteger(max) {
