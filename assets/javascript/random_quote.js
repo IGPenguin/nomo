@@ -12,7 +12,7 @@ function processData(allText) {
   var headers = allTextLines[0].split(',');
   var lines = [];
 
-  for (var i=1; i<=allTextLines.length; i++) {
+  for (var i=1; i<allTextLines.length; i++) {
       var data = allTextLines[i].split(',');
       if (data.length == headers.length) {
 
@@ -24,7 +24,7 @@ function processData(allText) {
     }
 }
     var quoteCount = lines.length;
-    var quoteIndex = generateRandomInteger(quoteCount);
+    var quoteIndex = generateRandomInteger(quoteCount+1);
     var selectedLine = String(lines[quoteIndex]);
     var selectedTopicWithKey = String(selectedLine.split(",")[0]);
     var selectedTopic = String(selectedTopicWithKey.split(",")[1]);
