@@ -12,7 +12,6 @@ body {
 h1, h2, h3, h4, h5, h6 {
   color:#222;
   margin:0 0 20px;
-  text-align:center;
 }
 
 p, ul, ol, table, pre, dl {
@@ -213,6 +212,7 @@ footer {
     width:auto;
     float:center;
     margin:0;
+    text-align: center;
   }
 
   header, section, footer {
