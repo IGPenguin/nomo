@@ -7,10 +7,12 @@ description: Inspirational digital space
 <br>
 <p align="center">
 
-<h1>💎 Welcome to Stashboard!</h1><br>
+<h2>💎 Welcome to Stashboard!</h2>
+<small>an inspirational digital space</small>
+<br><br><br><br>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="assets/javascript/random_quote.js"></script>
-<h3 id = "id_title"/>
-<i>An inspirational digital space.</i><br>
-
+<h1 id = "id_emoji"/><h3 id = "id_title"/>
+<h4 id = "id_text"/>
+<h5 id = "id_topic"/>
 </p>

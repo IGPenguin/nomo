@@ -33,6 +33,19 @@ function processData(allText) {
     var selectedTitleWithKey = String(selectedLine.split(",")[1]);
     var selectedTitle = String(selectedTitleWithKey.split(":")[1]);
 
+    var selectedTextWithKey = String(selectedLine.split(",")[2]);
+    var selectedText = String(selectedTextWithKey.split(":")[1]);
+
+    var selectedEmojiWithKey = String(selectedLine.split(",")[3]);
+    var selectedEmoji = String(selectedEmojiWithKey.split(":")[1]);
+
+    //function updateHtmlComponents
+    document.getElementById('id_emoji').innerHTML = selectedEmoji;
+    document.getElementById('id_topic').innerHTML = selectedTopic;
+    document.getElementById('id_title').innerHTML = selectedTitle;
+    document.getElementById('id_text').innerHTML = selectedText;
+
+    //function logQuoteDetails(){
     console.log("lines: " + lines.join());
     console.log(".csv line count: " + quoteCount);
     console.log(".csv selected index: " + quoteIndex);
@@ -42,6 +55,8 @@ function processData(allText) {
     console.log("selected topic: " + selectedTopic);
     console.log("selected title with key: " + selectedTitleWithKey);
     console.log("selected title: " + selectedTitle);
+    console.log("selected emoji: " + selectedEmoji);
+    console.log("selected text: " + selectedText);
 }
 
 function generateRandomInteger(max) {
