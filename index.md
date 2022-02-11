@@ -2,7 +2,6 @@
 layout: default
 title: Penguin's Stashboard
 description: Inspirational digital space
-theme: jekyll-theme-minimal
 ---
 <br>
 <br>
