@@ -17,5 +17,7 @@ description: An inspirational digital space.
 <br>
 <h5 id = "id_topic"/>
 </div>
+<br>
+<button type = "button" id = "button" onClick="window.location.reload();">Show another!</button>
 </center>
 </p>
