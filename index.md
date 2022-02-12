@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Penguin's Stashboard
-description: Inspirational digital space
 ---
 <br>
 <br>
