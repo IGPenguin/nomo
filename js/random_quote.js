@@ -44,19 +44,6 @@ function processData(allText) {
     document.getElementById('id_title').innerHTML = selectedTitle;
     document.getElementById('id_text').innerHTML = selectedText;
     document.getElementById('id_topic').innerHTML = "- " + selectedTopic;
-
-    //function logQuoteDetails(){
-    console.log("lines: " + lines.join());
-    console.log(".csv line count: " + quoteCount);
-    console.log(".csv selected index: " + quoteIndex);
-    console.log("selected line: " + selectedLine);
-    console.log("selected line type: " + typeof selectedLine);
-    console.log("selected topic with key: " + selectedTopicWithKey);
-    console.log("selected topic: " + selectedTopic);
-    console.log("selected title with key: " + selectedTitleWithKey);
-    console.log("selected title: " + selectedTitle);
-    console.log("selected emoji: " + selectedEmoji);
-    console.log("selected text: " + selectedText);
 }
 
 function generateRandomInteger(max) {
