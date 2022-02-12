@@ -41,9 +41,9 @@ function processData(allText) {
 
     //function updateHtmlComponents
     document.getElementById('id_emoji').innerHTML = selectedEmoji;
-    document.getElementById('id_topic').innerHTML = selectedTopic;
     document.getElementById('id_title').innerHTML = selectedTitle;
     document.getElementById('id_text').innerHTML = selectedText;
+    document.getElementById('id_topic').innerHTML = "- " + selectedTopic;
 
     //function logQuoteDetails(){
     console.log("lines: " + lines.join());
