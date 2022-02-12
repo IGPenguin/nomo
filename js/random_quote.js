@@ -1,7 +1,7 @@
 $(document).ready(function() {
     $.ajax({
         type: "GET",
-        url: "data/quotes.csv",
+        url: "data/quotes_v2.csv",
         dataType: "text",
         success: function(data) {processData(data);}
      });
@@ -9,11 +9,11 @@ $(document).ready(function() {
 
 function processData(allText) {
   var allTextLines = allText.split(/\r\n|\n/);
-  var headers = allTextLines[0].split(',');
+  var headers = allTextLines[0].split(';');
   var lines = [];
 
   for (var i=1; i<allTextLines.length; i++) {
-      var data = allTextLines[i].split(',');
+      var data = allTextLines[i].split(';');
       if (data.length == headers.length) {
 
           var tarr = [];
@@ -27,16 +27,16 @@ function processData(allText) {
     var quoteIndex = generateRandomInteger(quoteCount);
     var selectedLine = String(lines[quoteIndex]);
 
-    var selectedTopicWithKey = String(selectedLine.split(",")[0]);
+    var selectedTopicWithKey = String(selectedLine.split(",")[1]);
     var selectedTopic = String(selectedTopicWithKey.split(":")[1]);
 
-    var selectedTitleWithKey = String(selectedLine.split(",")[1]);
+    var selectedTitleWithKey = String(selectedLine.split(",")[3]);
     var selectedTitle = String(selectedTitleWithKey.split(":")[1]);
 
-    var selectedTextWithKey = String(selectedLine.split(",")[2]);
+    var selectedTextWithKey = String(selectedLine.split(",")[4]);
     var selectedText = String(selectedTextWithKey.split(":")[1]);
 
-    var selectedEmojiWithKey = String(selectedLine.split(",")[3]);
+    var selectedEmojiWithKey = String(selectedLine.split(",")[2]);
     var selectedEmoji = String(selectedEmojiWithKey.split(":")[1]);
 
     //function updateHtmlComponents
