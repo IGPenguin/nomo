@@ -3,6 +3,11 @@ layout: default
 title: Penguin's Stashboard
 description: An inspirational digital space.
 ---
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@Stashboard" />
+<meta name="twitter:title" content="{{ page.title }}" />
+<meta name="twitter:image" content="{{ page.title_image }}" />
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <br>
