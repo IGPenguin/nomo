@@ -21,7 +21,6 @@ description: An inspirational digital space.
 </div>
 <h2><br></h2>
 <script src="js/random_quote.js"></script>
-<button type = "button" id = "button" onClick="window.location.reload();">Show another!</button>
+<button type = "button" id = "button_tweet" onClick="generateTweet();">🦆 Tweet it!</button>&emsp;<button type = "button" id = "button" onClick="window.location.reload();">♻️ Show another!</button>
 </center>
-
 </p>

@@ -1,3 +1,5 @@
+var tweet;
+
 $(document).ready(function() {
     $.ajax({
         type: "GET",
@@ -44,6 +46,14 @@ function processData(allText) {
     document.getElementById('id_title').innerHTML = selectedTitle;
     document.getElementById('id_text').innerHTML = selectedText;
     document.getElementById('id_topic').innerHTML = "- " + selectedTopic;
+
+    tweet = String(selectedEmoji + " " + selectedTitle + "\n\n" + selectedText).replaceAll("<br>","\n - ");
+}
+
+function generateTweet(){
+  var url = "http://twitter.com/intent/tweet?url=https://intergalacticpenguin.github.io/stashboard&text=";
+  //window.open("https://www.w3schools.com");
+  window.open(url+encodeURIComponent(tweet));
 }
 
 function generateRandomInteger(max) {
