@@ -47,7 +47,7 @@ function processData(allText) {
     document.getElementById('id_text').innerHTML = selectedText;
     document.getElementById('id_topic').innerHTML = "- " + selectedTopic;
 
-    tweet = String(selectedEmoji + " " + selectedTitle + "\n\n" + selectedText).replaceAll("<br>","\n");
+    tweet = String(selectedEmoji + " " + selectedTitle + "\n\n").replaceAll("<br>"," ") + String(selectedText).replaceAll("<br>","\n");
 }
 
 function generateTweet(){
