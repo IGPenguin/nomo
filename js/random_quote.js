@@ -52,8 +52,11 @@ function processData(allText) {
 
 function generateTweet(){
   var url = "http://twitter.com/intent/tweet?url=https://igpenguin.github.io/hmm&text=";
-  //window.open("https://www.w3schools.com");
   window.open(url+encodeURIComponent(tweet));
+}
+
+function reportIssue(){
+  window.open("https://github.com/IGPenguin/hmm/issues");
 }
 
 function generateRandomInteger(max) {
