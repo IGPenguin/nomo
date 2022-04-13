@@ -13,7 +13,7 @@ layout: default
 <h2>💬 Welcome to Hmm!</h2>
 <small>Your daily dose of soft skill progress.</small>
 
-<br><br><br>
+<br><br>
 
 <center>
 <div class="card">
