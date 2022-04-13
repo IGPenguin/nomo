@@ -11,7 +11,7 @@ layout: default
 <br>
 <p align="center">
 <h2>💬 Welcome to Hmm!</h2>
-<small>Your daily dose of soft skills.</small>
+<small>Your daily dose of soft skill progress.</small>
 
 <br><br><br>
 
@@ -24,7 +24,10 @@ layout: default
 </div>
 <h2><br></h2>
 <script src="js/random_quote.js"></script>
-<button type = "button" id = "button_tweet" onClick="generateTweet();">🦆 Tweet it!</button>&emsp;<button type = "button" id = "button" onClick="window.location.reload();">♻️ Show another!</button><br>
+<button type = "button" id = "button" onClick="window.location.reload();">♻️ Show another!</button>
+&emsp;
+<button type = "button" id = "button_tweet" onClick="generateTweet();">🦆 Tweet it!</button>
+<br><br>
 <button type = "button" id = "button_report" onClick="reportIssue();">⚠️ Something is wrong!</button>
 </center>
 </p>
