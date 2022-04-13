@@ -1,10 +1,8 @@
 ---
 layout: default
-title: Penguin's Stashboard
-description: An inspirational digital space.
 ---
 <meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@Stashboard" />
+<meta name="twitter:site" content="{{ page.title }}" />
 <meta name="twitter:title" content="{{ page.title }}" />
 <meta name="twitter:image" content="{{ page.title_image }}" />
 
@@ -12,8 +10,8 @@ description: An inspirational digital space.
 
 <br>
 <p align="center">
-<h2>💬 Welcome to Stashboard!</h2>
-<small>An inspirational digital space.</small>
+<h2>💬 Welcome to Hmm!</h2>
+<small>Your daily dose of soft skills.</small>
 
 <br><br><br>
 
@@ -26,6 +24,7 @@ description: An inspirational digital space.
 </div>
 <h2><br></h2>
 <script src="js/random_quote.js"></script>
-<button type = "button" id = "button_tweet" onClick="generateTweet();">🦆 Tweet it!</button>&emsp;<button type = "button" id = "button" onClick="window.location.reload();">♻️ Show another!</button>
+<button type = "button" id = "button_tweet" onClick="generateTweet();">🦆 Tweet it!</button>&emsp;<button type = "button" id = "button" onClick="window.location.reload();">♻️ Show another!</button><br>
+<button type = "button" id = "button_report" onClick="reportIssue();">⚠️ Something is wrong!</button>
 </center>
 </p>
