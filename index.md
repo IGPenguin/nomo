@@ -10,7 +10,7 @@ layout: default
 
 <p align="center">
 <h2>💬&nbsp;&nbsp;Welcome to Hmm!</h2>
-<h4>Your daily dose of soft skills progress.</h4>
+<h4>Your daily dose of soft skills enhancement.</h4>
 
 <br>
 
