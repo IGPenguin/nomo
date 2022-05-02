@@ -23,7 +23,7 @@ h1, h2, h3 {
 
 h1 {
   font-size:76px;
-  margin: 2px 0 12px;
+  margin: 8px 0 12px;
 }
 
 h2 {
@@ -41,6 +41,7 @@ h4 {
 h5 {
   font-weight: bold;
   font-size:12px;
+  margin-bottom: 4px
 }
 
 a {
@@ -71,6 +72,8 @@ a:hover small {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
   width: 280px;
   height: 260px;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .wrapper {
