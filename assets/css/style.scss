@@ -6,3 +6,34 @@
 header {
   display: none;
 }
+
+@media  (min-width: 420px) {
+  body {
+    padding-top: 64px;
+    }
+
+  .card {
+    width: 400px;
+    height: 300px;
+  }
+
+  h1 {
+    font-size:76px;
+    margin: 16px 0 16px;
+    }
+
+  h2 {
+    font-size:18px;
+    margin: 0 0 12px;
+    }
+
+  h4 {
+    font-size:14px;
+    }
+
+  button {
+    height: 36px;
+    min-width: 150px;
+    font-size: 15px;
+  }
+}

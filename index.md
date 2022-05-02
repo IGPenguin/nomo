@@ -8,12 +8,11 @@ layout: default
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-<br>
 <p align="center">
 <h2>💬 Welcome to Hmm!</h2>
-<small>Your daily dose of soft skill progress.</small>
+<h4>Your daily dose of soft skill progress.</h4>
 
-<br><br>
+<br>
 
 <center>
 <div class="card">
@@ -24,10 +23,10 @@ layout: default
 </div>
 <h2><br></h2>
 <script src="js/random_quote.js"></script>
-<button type = "button" id = "button" onClick="window.location.reload();">♻️ Show another!</button>
+<button type = "button" id = "button" onClick="window.location.reload();">♻️&nbsp;&nbsp;Show another!</button>
 &emsp;
-<button type = "button" id = "button_tweet" onClick="generateTweet();">🦆 Tweet it!</button>
+<button type = "button" id = "button_tweet" onClick="generateTweet();">🦆&nbsp;&nbsp;Tweet this!</button>
 <br><br>
-<button type = "button" id = "button_report" onClick="reportIssue();">⚠️ Something is wrong!</button>
+<button type = "button" id = "button_report" onClick="reportIssue();">⚠️&nbsp;&nbsp;Something's wrong!</button>
 </center>
 </p>

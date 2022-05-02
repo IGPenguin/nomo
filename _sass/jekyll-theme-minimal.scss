@@ -2,15 +2,14 @@
 @import "rouge-github";
 
 body {
-  background-color: #fff;
+  background-color: rgb(45,45,45);
   padding:24px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#727272;
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color:#fff;
   margin:0 0 20px;
 }
 
@@ -23,7 +22,7 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size:66px;
+  font-size:76px;
   margin: 8px 0 16px;
 }
 
@@ -40,10 +39,8 @@ h4 {
 }
 
 h5 {
-  font-weight: normal;
-  font-style: italic;
-  font-size:10px;
-  margin:6px;
+  font-weight: bold;
+  font-size:12px;
 }
 
 a {
@@ -70,10 +67,10 @@ a:hover small {
 .card {
   float: center;
   padding: 16px;
-  color: #256;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  background-color: rgb(40,40,40);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
   width: 280px;
-  height: 240px;
+  height: 250px;
 }
 
 .wrapper {
@@ -226,8 +223,17 @@ hr {
 footer {
   width:auto;
   bottom:50px;
-  margin-top:0px;
+  margin-top:-12px;
   -webkit-font-smoothing:subpixel-antialiased;
+}
+
+button {
+  height: 28px;
+  background-color: rgb(40,40,40);
+  color: #fff;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-weight: bold;
 }
 
 @media print, screen and (max-width: 960px) {
