@@ -1,6 +1,6 @@
 ### Welcome to Hmm!
 
-Visit the [live page](https://github.com/IGPenguin/hmm) to see what's this about.<br>
+Visit the [live page](https://igpenguin.github.io/hmm) to see what's this about.<br>
 
 Deploy to localhost using ```bundle exec jekyll serve```
 
