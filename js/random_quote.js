@@ -68,6 +68,10 @@ function reportIssue(){
   window.open("https://github.com/IGPenguin/hmm/issues");
 }
 
+function sameTopic(){
+  alert("Function not implemented yet, stay tuned.")
+}
+
 function generateRandomInteger(max) {
     return Math.floor(Math.random() * max);
 }
