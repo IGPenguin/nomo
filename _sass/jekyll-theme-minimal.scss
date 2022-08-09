@@ -230,7 +230,7 @@ footer {
 }
 
 button {
-  height: 28px;
+  min-height: 36px;
   background-color: rgb(40,40,40);
   color: #fff;
   padding-right: 10px;
@@ -309,7 +309,15 @@ select {
 
 @media print, screen and (max-width: 480px) {
   body {
-    padding:15px;
+    padding:0px;
+  }
+
+  section {
+    padding:0px;
+  }
+
+  .card{
+    width: 300px;
   }
 
   .downloads {
