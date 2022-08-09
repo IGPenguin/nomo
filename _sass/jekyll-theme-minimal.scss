@@ -238,6 +238,23 @@ button {
   font-weight: bold;
 }
 
+select {
+  padding:5px;
+  padding-left:10px;
+  padding-right:10px;
+  appearance: none;
+  border: 2px solid transparent;
+  border-color: #767676 #202020 #202020 #767676;
+  background-color: rgb(40,40,40);
+  color: #fff;
+  font-weight: normal;
+  min-height: 36px;
+  font-size: 15px;
+  text-align: center;
+}
+
+//Print/////////////////////////////////////
+
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
