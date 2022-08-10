@@ -24,11 +24,13 @@ layout: default
 <h2><br></h2>
 <script src="js/random_quote.js"></script>
 
+<!--
 <div>
   <button type = "button" id = "button" onClick="sameTopic();">↪️&nbsp;&nbsp;Another from</button>&nbsp;
   <select name="topics" id="select_topic"></select>
 </div>
 <p style="margin:10px;"></p>
+-->
 
 <button type = "button" id = "button" onClick="window.location.reload();">♻️&nbsp;&nbsp;Randomize!</button>&nbsp;
 <button type = "button" id = "button_tweet" onClick="generateTweet();">🦆&nbsp;&nbsp;Tweet this!</button>&nbsp;
