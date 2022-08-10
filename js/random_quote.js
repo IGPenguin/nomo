@@ -47,16 +47,16 @@ function redraw(){
   var selectedEmojiWithKey = String(selectedLine.split(",")[2]);
   var selectedEmoji = String(selectedEmojiWithKey.split(":")[1]);
 
+  tweet = String(selectedEmoji + " " + selectedTitle + "\n\n").replaceAll("<br>"," ") + String(selectedText).replaceAll("<br>","\n") + "\n\nLearn more about" + " " + selectedTopic + " at:";
+
   document.getElementById('id_emoji').innerHTML = selectedEmoji;
   document.getElementById('id_title').innerHTML = selectedTitle;
   document.getElementById('id_text').innerHTML = selectedText;
   document.getElementById('id_topic').innerHTML = "- " + selectedTopic;
-
-  var picker = document.getElementById('select_topic');
-  picker.innerHTML = selectedTopic + " ▾";
-  picker.add(new Option(selectedTopic));
-
-  tweet = String(selectedEmoji + " " + selectedTitle + "\n\n").replaceAll("<br>"," ") + String(selectedText).replaceAll("<br>","\n") + "\n\nLearn more about" + " " + selectedTopic + " at:";
+  
+  //var picker = document.getElementById('select_topic');
+  //picker.innerHTML = selectedTopic + " ▾";
+  //picker.add(new Option(selectedTopic));
 }
 
 function generateTweet(){
