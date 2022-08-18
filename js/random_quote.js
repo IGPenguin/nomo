@@ -8,6 +8,7 @@ if (seenIDsString == null){
   seenIDs = Array.from(seenIDsString);
 }
 
+//seenIDs = Array.from(Array(102).keys()) //Uncomment and change the int for testing ids higher than that 
 console.log("Already seen IDs: " + seenIDs);
 
 var tweet;
