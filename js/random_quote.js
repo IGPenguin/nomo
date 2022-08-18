@@ -1,5 +1,18 @@
+var seenIDsString = JSON.parse(localStorage.getItem("seenIDs"));
+var seenIDs;
+var quoteCount;
+
+if (seenIDsString == null){
+  seenIDs = [];
+} else {
+  seenIDs = Array.from(seenIDsString);
+}
+
+console.log("Already seen IDs: " + seenIDs);
+
 var tweet;
 var lines;
+var randomTopicIndex;
 
 $(document).ready(function() {
     $.ajax({
@@ -26,13 +39,12 @@ function processData(allText) {
         lines.push(tarr);
   }
   }
-  console.log(lines);
   redraw();
 }
 
 function redraw(){
-  var quoteCount = lines.length;
-  var quoteIndex = generateRandomInteger(quoteCount);
+  quoteCount = lines.length;
+  var quoteIndex = getUnseenTopicIndex(quoteCount);
   selectedLine = String(lines[quoteIndex]);
 
   var selectedTopicWithKey = String(selectedLine.split(",")[1]);
@@ -53,7 +65,7 @@ function redraw(){
   document.getElementById('id_title').innerHTML = selectedTitle;
   document.getElementById('id_text').innerHTML = selectedText;
   document.getElementById('id_topic').innerHTML = "- " + selectedTopic;
-  
+
   //var picker = document.getElementById('select_topic');
   //picker.innerHTML = selectedTopic + " ▾";
   //picker.add(new Option(selectedTopic));
@@ -72,6 +84,16 @@ function sameTopic(){
   alert("Function not implemented yet, stay tuned.")
 }
 
-function generateRandomInteger(max) {
-    return Math.floor(Math.random() * max);
+function getUnseenTopicIndex(max) {
+    do {
+      randomTopicIndex = Math.floor(Math.random() * max);
+      if (seenIDs.length >= quoteCount){
+        localStorage.removeItem("seenIDs");
+        alert("Great job! You've seen it all.\nShuffling topics...")
+        break;
+      }
+    } while (seenIDs.includes(randomTopicIndex));
+    seenIDs.push(randomTopicIndex);
+    localStorage.setItem("seenIDs", JSON.stringify(seenIDs));
+    return randomTopicIndex;
 }
