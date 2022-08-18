@@ -88,8 +88,9 @@ function getUnseenTopicIndex(max) {
     do {
       randomTopicIndex = Math.floor(Math.random() * max);
       if (seenIDs.length >= quoteCount){
-        localStorage.removeItem("seenIDs");
-        alert("Great job! You've seen it all.\nShuffling topics...")
+        alert("Great job! You've seen it all.\nReshuffling list of " + seenIDs.length + " items...")
+        localStorage.setItem("seenIDs", JSON.stringify(""));
+        seenIDs = [];
         break;
       }
     } while (seenIDs.includes(randomTopicIndex));
