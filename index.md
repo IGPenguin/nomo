@@ -9,7 +9,7 @@ layout: default
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <p align="center">
-<h2>💬&nbsp;&nbsp;Welcome to Hmm!</h2>
+<h2>💬&nbsp;&nbsp;Welcome to the Hmm!</h2>
 <h4 id = "id_subtitle" >"Keep learning, you still have X cards left."</h4>
 
 <br>
