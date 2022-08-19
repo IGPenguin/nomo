@@ -80,6 +80,10 @@ function redraw(index){
   document.getElementById('id_subtitle').innerHTML = "Keep learning and discover " + itemsLeft + " more unique cards.";
 }
 
+function randomItem(){
+  redraw(getUnseenTopicIndex());
+}
+
 function previousItem(){
   var previousItemIndex = quoteIndex-1;
   if (previousItemIndex < 0){

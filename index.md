@@ -18,7 +18,7 @@ layout: default
 <div class="card">
 <h1 id = "id_emoji"/>
 <h2 id = "id_title"/>
-<h4 id = "id_text">\n\n\n\n</h4>
+<h4 id = "id_text"/>
 <br>
 <h5 id = "id_topic"/>
 </div>
@@ -26,7 +26,7 @@ layout: default
 <p style="margin:28px;"></p>
 
 <button type = "button" id = "button_previous" onClick="previousItem();">⏪&nbsp;&nbsp;Back</button>&nbsp;
-<button type = "button" id = "button" onClick="window.location.reload();">♻️&nbsp;&nbsp;Randomize</button>&nbsp;
+<button type = "button" id = "button" onClick="randomItem();">♻️&nbsp;&nbsp;Randomize</button>&nbsp;
 <button type = "button" id = "button_next" onClick="nextItem();">Next&nbsp;&nbsp;⏩</button>&nbsp;
 <p style="margin:10px;"></p>
 <button type = "button" id = "button_tweet" onClick="sayHello();">👋&nbsp;&nbsp;Say hello.</button>&nbsp;
