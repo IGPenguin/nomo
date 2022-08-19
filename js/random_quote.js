@@ -1,6 +1,7 @@
 var seenIDsString = JSON.parse(localStorage.getItem("seenIDs"));
 var seenIDs;
 var quoteCount;
+var quoteIndex;
 
 if (seenIDsString == null){
   seenIDs = [];
@@ -8,8 +9,8 @@ if (seenIDsString == null){
   seenIDs = Array.from(seenIDsString);
 }
 
-//seenIDs = Array.from(Array(102).keys()) //Uncomment and change the int for testing ids higher than that 
-console.log("Already seen IDs: " + seenIDs);
+//Uncomment and change the int for testing ids higher than that
+//seenIDs = Array.from(Array(102).keys())
 
 var tweet;
 var lines;
@@ -40,13 +41,12 @@ function processData(allText) {
         lines.push(tarr);
   }
   }
-  redraw();
+  redraw(getUnseenTopicIndex());
 }
 
-function redraw(){
-  quoteCount = lines.length;
-  var quoteIndex = getUnseenTopicIndex(quoteCount);
-  selectedLine = String(lines[quoteIndex]);
+function redraw(index){
+  quoteIndex = index;
+  selectedLine = String(lines[index]);
 
   var selectedTopicWithKey = String(selectedLine.split(",")[1]);
   selectedTopic = String(selectedTopicWithKey.split(":")[1]);
@@ -70,6 +70,8 @@ function redraw(){
   //var picker = document.getElementById('select_topic');
   //picker.innerHTML = selectedTopic + " ▾";
   //picker.add(new Option(selectedTopic));
+
+  markAsSeen(quoteIndex);
 }
 
 function generateTweet(){
@@ -85,7 +87,25 @@ function sameTopic(){
   alert("Function not implemented yet, stay tuned.")
 }
 
-function getUnseenTopicIndex(max) {
+function previousItem(){
+  var previousItemIndex = quoteIndex-1;
+  if (previousItemIndex < 0){
+    previousItemIndex = quoteCount-1;
+  }
+  redraw(previousItemIndex);
+}
+
+function nextItem(){
+  var nextItemIndex = quoteIndex+1;
+  if (nextItemIndex > quoteCount-1){
+    nextItemIndex = 0;
+  }
+  redraw(nextItemIndex);
+}
+
+function getUnseenTopicIndex() {
+  quoteCount = lines.length;
+  var max = quoteCount;
     do {
       randomTopicIndex = Math.floor(Math.random() * max);
       if (seenIDs.length >= quoteCount){
@@ -95,7 +115,13 @@ function getUnseenTopicIndex(max) {
         break;
       }
     } while (seenIDs.includes(randomTopicIndex));
-    seenIDs.push(randomTopicIndex);
-    localStorage.setItem("seenIDs", JSON.stringify(seenIDs));
     return randomTopicIndex;
+}
+
+function markAsSeen(seenID){
+  if (!seenIDs.includes(seenID)){
+    seenIDs.push(seenID);
+    localStorage.setItem("seenIDs", JSON.stringify(seenIDs));
+    console.log("Already seen IDs: " + seenIDs);
+  }
 }
