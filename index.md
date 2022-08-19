@@ -10,7 +10,7 @@ layout: default
 
 <p align="center">
 <h2>💬&nbsp;&nbsp;Welcome to the Hmm!</h2>
-<h4 id = "id_subtitle" >"Keep learning, you still have X cards left."</h4>
+<h4 id = "id_subtitle" >Keep learning, you still have X cards left.</h4>
 
 <br>
 
