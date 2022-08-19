@@ -1,3 +1,5 @@
+//Init
+
 var seenIDsString = JSON.parse(localStorage.getItem("seenIDs"));
 var seenIDs;
 var quoteCount;
@@ -24,6 +26,8 @@ $(document).ready(function() {
         success: function(data) {processData(data);}
      });
 });
+
+//Functions
 
 function processData(allText) {
   var allTextLines = allText.split(/\r\n|\n/);
@@ -83,10 +87,6 @@ function generateTweet(){
 
 function reportIssue(){
   window.open("https://github.com/IGPenguin/hmm/issues");
-}
-
-function sameTopic(){
-  alert("Function not implemented yet, stay tuned.")
 }
 
 function previousItem(){
