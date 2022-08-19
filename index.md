@@ -12,7 +12,7 @@ layout: default
 <center>
 <h2>💬&nbsp;&nbsp;Welcome to the Hmm!</h2>
 <h4 id = "id_subtitle" >Keep learning, you still have X cards left.</h4>
-<p style="margin-bottom:32px;"></p>
+<p style="margin-bottom:28px;"></p>
 
 
 <div class="card">
