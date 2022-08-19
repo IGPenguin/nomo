@@ -80,15 +80,6 @@ function redraw(index){
   document.getElementById('id_subtitle').innerHTML = "Keep learning and discover " + itemsLeft + " more unique cards.";
 }
 
-function generateTweet(){
-  var url = "http://twitter.com/intent/tweet?url=https://igpenguin.github.io/hmm&text=";
-  window.open(url+encodeURIComponent(tweet));
-}
-
-function reportIssue(){
-  window.open("https://github.com/IGPenguin/hmm/issues");
-}
-
 function previousItem(){
   var previousItemIndex = quoteIndex-1;
   if (previousItemIndex < 0){
@@ -126,4 +117,13 @@ function markAsSeen(seenID){
     localStorage.setItem("seenIDs", JSON.stringify(seenIDs));
     console.log("Already seen IDs: " + seenIDs);
   }
+}
+
+function generateTweet(){
+  var url = "http://twitter.com/intent/tweet?url=https://igpenguin.github.io/hmm&text=";
+  window.open(url+encodeURIComponent(tweet));
+}
+
+function sayHello(){
+  window.open("https://www.linkedin.com/in/intergalacticpenguin/");
 }

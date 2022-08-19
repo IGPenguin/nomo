@@ -11,7 +11,7 @@ layout: default
 
 <center>
 <h2>💬&nbsp;&nbsp;Welcome to the Hmm!</h2>
-<h4 id = "id_subtitle" >Keep learning and discover X more unique cards.</h4>
+<h4 id = "id_subtitle"> </h4>
 <p style="margin-bottom:28px;"></p>
 
 
@@ -28,5 +28,6 @@ layout: default
 <button type = "button" id = "button" onClick="window.location.reload();">♻️&nbsp;&nbsp;Randomize</button>&nbsp;
 <button type = "button" id = "button_next" onClick="nextItem();">Next&nbsp;&nbsp;⏩</button>&nbsp;
 <p style="margin:10px;"></p>
-<button type = "button" id = "button_tweet" onClick="generateTweet();">🦆&nbsp;&nbsp;Tweet this card!</button>&nbsp;
+<button type = "button" id = "button_tweet" onClick="sayHello();">👋&nbsp;&nbsp;Say hello.</button>&nbsp;
+<button type = "button" id = "button_tweet" onClick="generateTweet();">🦆&nbsp;&nbsp;Tweet this!</button>&nbsp;
 </center>
