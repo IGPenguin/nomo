@@ -45,7 +45,22 @@ h5 {
 }
 
 a {
-  color:#267CB9;
+  color:red;
+  text-decoration:none;
+}
+
+a:hover {
+  color:yellow;
+  text-decoration:none;
+}
+
+a:active {
+  color:yellow;
+  text-decoration:none;
+}
+
+a:visited {
+  color:green;
   text-decoration:none;
 }
 
