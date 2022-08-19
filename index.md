@@ -16,8 +16,9 @@ layout: default
 
 
 <div class="card">
-<h1 id = "id_emoji"/><h2 id = "id_title"/>
-<h4 id = "id_text"/>
+<h1 id = "id_emoji"/>
+<h2 id = "id_title"/>
+<h4 id = "id_text">\n\n\n\n</h4>
 <br>
 <h5 id = "id_topic"/>
 </div>
