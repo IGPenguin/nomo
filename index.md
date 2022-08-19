@@ -10,10 +10,10 @@ layout: default
 <script src="js/random_quote.js"></script>
 
 <center>
-
+<p style="margin:18px;"></p>
 <h2>💬&nbsp;&nbsp;Welcome to the Hmm!</h2>
 <h4 id = "id_subtitle" >Keep learning, you still have X cards left.</h4>
-<p style="margin:24px;"></p>
+<p style="margin-bottom:64px;"></p>
 
 
 <div class="card">
