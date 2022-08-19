@@ -77,7 +77,7 @@ function redraw(index){
 
   markAsSeen(quoteIndex);
   var itemsLeft = quoteCount-seenIDs.length;
-  document.getElementById('id_subtitle').innerHTML = "Keep learning, you still have " + itemsLeft + " cards left.";
+  document.getElementById('id_subtitle').innerHTML = "Keep learning and discover " + itemsLeft + " more unique cards.";
 }
 
 function generateTweet(){
