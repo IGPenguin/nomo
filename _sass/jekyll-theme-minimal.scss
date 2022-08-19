@@ -66,8 +66,8 @@ a:active, a:hover, a:focus {
   padding: 16px;
   background-color: rgb(40,40,40);
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
-  width: 280px;
-  height: 280px;
+  width: 400px;
+  height: 300px;
   display: table-cell;
   vertical-align: middle;
 }
@@ -311,10 +311,6 @@ select {
 
   section {
     padding:0px;
-  }
-
-  .card{
-    width: 300px;
   }
 
   .downloads {
