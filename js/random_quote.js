@@ -72,6 +72,8 @@ function redraw(index){
   //picker.add(new Option(selectedTopic));
 
   markAsSeen(quoteIndex);
+  var itemsLeft = quoteCount-seenIDs.length;
+  document.getElementById('id_subtitle').innerHTML = "Keep learning, you still have " + itemsLeft + " cards left.";
 }
 
 function generateTweet(){

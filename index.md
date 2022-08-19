@@ -10,7 +10,7 @@ layout: default
 
 <p align="center">
 <h2>💬&nbsp;&nbsp;Welcome to Hmm!</h2>
-<h4>Your daily dose of soft skills enhancement.</h4>
+<h4 id = "id_subtitle" >"Keep learning, you still have X cards left."</h4>
 
 <br>
 
@@ -38,6 +38,6 @@ layout: default
 <p style="margin:10px;"></p>
 
 <button type = "button" id = "button_tweet" onClick="generateTweet();">🦆&nbsp;&nbsp;Tweet!</button>&nbsp;
-<button type = "button" id = "button_report" onClick="reportIssue();">⚠️&nbsp;&nbsp;Inappropriate</button>
+<button type = "button" id = "button_report" onClick="reportIssue();">⚠️&nbsp;&nbsp;Misleading.</button>
 </center>
 </p>
