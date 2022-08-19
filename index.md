@@ -28,7 +28,6 @@ layout: default
 <button type = "button" id = "button" onClick="window.location.reload();">♻️&nbsp;&nbsp;Randomize</button>&nbsp;
 <button type = "button" id = "button_next" onClick="nextItem();">Next&nbsp;&nbsp;⏩</button>&nbsp;
 <p style="margin:10px;"></p>
-
+<button type = "button" id = "button_report" onClick="reportIssue();">⚠️&nbsp;&nbsp;Mistake</button>
 <button type = "button" id = "button_tweet" onClick="generateTweet();">🦆&nbsp;&nbsp;Tweet!</button>&nbsp;
-<button type = "button" id = "button_report" onClick="reportIssue();">⚠️&nbsp;&nbsp;Misleading.</button>
 </center>
