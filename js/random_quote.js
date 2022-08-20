@@ -77,7 +77,7 @@ function redraw(index){
 
   markAsSeen(quoteIndex);
   var itemsLeft = quoteCount-seenIDs.length;
-  document.getElementById('id_subtitle').innerHTML = "Keep learning and discover " + itemsLeft + " more unique cards.";
+  document.getElementById('id_subtitle').innerHTML = "Keep learning and discover other " + itemsLeft + " unique cards.";
 }
 
 function randomItem(){
