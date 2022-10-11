@@ -1,5 +1,5 @@
 id;topic;emoji;title;text
-0;Strategic Thinking;🧠;Strategy needs to constantly evolve.;Question assumptions - Why you do this?<br>Observe what is happening.<br>Reflect.
+0;Strategic Thinking;🧠;Strategy needs to constantly evolve.;Ask yourself "Why are you doing this?"<br>Observe your primary responses.<br>Reflect on the observations.
 1;Strategic Thinking;🤔;Strategy is all about <br>the big-picture choices.;Be clear about what you are going to (not) do.<br>Define concrete activities to fulfil your goals.<br>Craft and adhere to schedule.
 2;Strategic Thinking;📆;How to build time<br>for strategic thinking?;Turn down the noise (e.g. music or TV).<br>Sit with your thoughts.<br>Ask the big questions.<br>Schedule for an hour a week.
 3;Strategic Thinking;💡;Gain diverse inspiration.;Consider all the present the future and the past.<br>Identify industry leaders and follow their content.<br>Monitor trends - Read widely and often.
@@ -23,7 +23,7 @@ id;topic;emoji;title;text
 21;Improving Judgement;❓;Judge your arguments<br>with these questions.;Did I highlight a common ground?<br>Did I make my main claim clear?<br>Did I provide sufficient evidence?<br>Did I omit personal attacks?
 22;Improving Judgement;🔮;How to judge the future?;Avoid saying "I knew it all along".<br>Pick three industry leaders.<br>Create a question wishlist.<br>Ask the leaders the questions.<br>Integrate various sources and formats.
 23;Improving Judgement;🔄;Become more self-aware.;What type of people do I prefer to work with?<br>What makes me stop listening to people?<br>What type of people prefer to work with me?<br>What makes people stop listening me?
-24;Improving Judgement;🧐;Avoid jumping to conclusions.;Balance negative thoughts with gratitude.<br>Secret information does not mean important.<br>Confident does not mean competent.
+24;Improving Judgement;🧐;Avoid jumping to conclusions.;Balance negative thoughts with gratitude.<br>Secret does not automatically mean important.<br>Confident does not mean competent.
 25;Critical Thinking;🕳;Don’t rush to solve a problem.<br>Stop and think first.;Dig down to avoid solving symptoms.<br>Find and address the root cause.
 26;Critical Thinking;🧨;Think about your<br>recommended solutions.;What problems might they cause?<br>Will it actually help the situation?<br>Review your approach with others.
 27;Critical Thinking;🧇;Break big problems<br>into smaller ones.;Then break those into smaller as well.<br>Continue until the solutions become obvious.<br>Anticipate unintended consequences.
@@ -96,9 +96,21 @@ id;topic;emoji;title;text
 94;Embracing Changes;☝️;Seek an objective perspective.;Step back and avoid any immediate reaction.<br>Discuss different views with your close ones.<br>Consider previous experiences of you and others.
 95;Embracing Changes;😌;Build personal resilience.;Identify the parts of you not threatened by the change.<br>Be grateful for what you have and you'll keep.<br>Invest in your mental and physical health.<br>Choose to view things positively.
 96;Positive Mindset;😃;What's positivity and why is it important?;It does not mean ignoring problems.<br>It means being in "solution first" mode.<br>Engage in being positive and impress others.<br>Encourage such behaviour among your team.
-97;Positive Mindset;🌥;Decrease your negative thoughts.;Try imaging the worst/best and most likely cases.<br>Counter negative thoughts with facts.<br>Assume the best of others' intentions.<br>Change the story in your head.
-98;Positive Mindset;🌻;Increase your positive thoughts.;Notice the good things around and be grateful!<br>Do frequent adjustments to your living space.<br>Find a positive trigger in your environment.<br>Put together a positivity portfolio.
-99;Positive Mindset;❤️;Develop positive relationships.;Strive for celebrating good news of others.<br>Make far more positive than negative comments.<br>Consider doing random acts of kindness.
+97;Positive Mindset;🌥;Minimise negative thoughts.;Try imaging the worst/best and most likely cases.<br>Counter negative thoughts with facts.<br>Assume the best of others' intentions.<br>Change the story in your head.
+98;Positive Mindset;🌻;Embrace positive thinking.;Be grateful for common but essential things.<br>Do frequent adjustments to your living space.<br>Find the positive triggers in your environment.<br>Put together a positivity portfolio.
+99;Positive Mindset;❤️;Develop positive relationships.;Strive for celebrating others' good news.<br>Make far more positive than negative comments.<br>Consider doing random acts of kindness.
 100;Positive Mindset;🖐;Foster positive habits.;Balance work and play well enough.<br>Set an end-time for working hours.<br>Frequently leverage your strengths.<br>Find some joy in your work.
-101;Positive Mindset;⛱;Respond adequately to negativity.;Practice empathy and acknowledge the feelings.<br>Protect your positive zone by distancing.<br>Redirect focus on "how to make it better".
-101;Positive Mindset;😨;How to respond to failure or loss?;Avoid extreme words such as always/worst/never...<br>Create some space for all stages of grief.<br>Focus on reengagement and success.
+101;Positive Mindset;⛱;Respond adequately to negativity.;Practice empathy and acknowledge the feelings.<br>Redirect your focus on possible improvements.<br>Protect your positive zone by distancing.
+102;Positive Mindset;😨;How to respond to failure or loss?;Avoid extreme words such as always/worst/never...<br>Create some space for all stages of grief.<br>Focus on reengagement and success.
+103;Managing Stress;😥;Identify your stress triggers.;What elevates your stress level?<br>Where does it come from?<br>When it usually happens?<br>Name specific activities and places.
+104;Managing Stress;📵;Take control over your availability.;You are not required to be reachable non-stop.<br>Selectively disconnect for a preset time.<br>Try working in a different environment.<br>Use the "Do not disturb" mode.<br>Work off-site once in a while.
+105;Managing Stress;🤙;Manage your interactions.;Not all meetings are mandatory by default.<br>Minimise interactions with your stress triggers.<br>Proactively seek positively influential opportunities.
+106;Managing Stress;🕑;Take control over your schedule.;Try to begin your day at work early.<br>Start with the most challenging tasks.<br>Consciously take 5 min breaks 2+ times a day.<br>Learn how to say "No" when necessary.
+107;Managing Stress;💚;Make positive personal choices.;Imagine yourself actually working on your desires.<br>Engage in fun and socially stimulating activities.<br>Focus on the good things and be grateful.<br>Refine your diet and workout plan.
+108;Building Resilience;🗿;What is personal resilience?;It's the ability to not break down under pressure.<br>Employ empathy and regulate emotional responses.<br>Stay cool even when being disturbed.
+109;Building Resilience;🙈;Practice response to rejection.;Get accustomed to hearing "No".<br>Try asking for things you might not receive.<br>Keep your internal dialogue positive.<br>Avoid apologizing for every minor hiccup.
+110;Building Resilience;🧐;Willingly face uncomfortable situations.;Get yourself an extra assignment.<br>Try exploring some new field.<br>Don't give up too early.<br>Learn from any failures.
+110;Building Resilience;🔋;Manage your energy efficiently.;Schedule any challenges for your productive hours.<br>When are you the most productive?<br>Is it in the morning/afternoon/evening?<br>Maybe you need to warmup first?
+111;Building Resilience;☀️;Practice positive thinking.;The words you imagine and say alter your mood.<br>Negative events are usually temporary.<br>Focus on things under your control.<br>Don't dwell on the little things.
+112;Building Resilience;🪞;Reflect on your previous reactions.;What could you have done differently?<br>Did you handle the situation appropriately?<br>Did you focus on being positive?
+113;Building Resilience;☕️;Take a break and then come back.;Take disciplined breaks to cool down.<br>Go elsewhere and engage in a different activity.<br>Review and prioritise action points later.<br>Redirect your energy focus.
