@@ -1,6 +1,6 @@
 ### 🐞 Describe what's wrong
-~Describe any issue you're experiencing~
+~Describe any issue you're experiencing.~
 ### 🌈 Ideal state
-~Outline desired data or functional changes~
+~Outline desired data or functional changes.~
 ### 📂 Sources
-~Provide any sources proving your point~
+~Provide any sources proving your point.~
