@@ -1,5 +1,5 @@
 ## ⚠️ Essential review checklist
-**I truthfully declare that all of the following statements are true:**
+**I truthfully declare that all the following statements are true:**
 - [ ] New features are fully completed.
 - [ ] All changes have been properly tested.
 - [ ] Output formatting is satisfactory.
