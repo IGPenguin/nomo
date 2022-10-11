@@ -4,10 +4,10 @@ If you consider contributing to this repository, please follow the rules below.
 
 ### 🕵️‍ Pull request requirements
 
-1. Implement everything thoroughly, remove any unused or temporary stuff.
-2. Ensure all code and data changes are properly tested.
-3. Review the output in the final UI and honor existing formatting.
-4. Briefly describe the benefits of your proposed integration.
+1. Implement everything thoroughly, omit any unused or temporary stuff.
+2. Ensure that all code and data changes have been properly tested.
+3. Review the visible output in the final UI and honor existing formatting.
+4. Briefly describe the benefits of your proposed source integration.
 
 ### ✏️ Right to make changes
 
