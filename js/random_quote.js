@@ -12,7 +12,7 @@ if (seenIDsString == null){
 }
 
 //Uncomment and change the int for testing ids higher than that
-seenIDs = Array.from(Array(104).keys())
+//seenIDs = Array.from(Array(104).keys())
 
 var tweet;
 var lines;
