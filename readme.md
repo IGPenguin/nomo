@@ -1,12 +1,12 @@
 ## Hmm | Soft Skills Development Tool
 
-### Introduction
+### 💚 About this project
 This repository hosts a simple self-development tool written in CSS & JS.<br>
 Shuffle through carefully crafted info cards to enhance your soft skills.<br>
 <br>
-Visit the [live page](https://igpenguin.github.io/hmm) to try it yourself.<br>
+→ Visit the [live page](https://igpenguin.github.io/hmm) to try it yourself.<br>
 
-### Development and Contributing
+### 🏗 Development and contributing
 See the [Development Plan](https://github.com/IGPenguin/hmm/projects/1) it is publicly available.<br>
 Feel free to request new features, fixes or submit data sources by creating [Issues](https://github.com/IGPenguin/hmm/issues).
 <br>
