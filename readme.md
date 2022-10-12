@@ -7,8 +7,8 @@ Shuffle through carefully crafted info cards to enhance your soft skills.<br>
 → Visit the [live page](https://igpenguin.github.io/hmm) to try it yourself.<br>
 
 ### 🏗 Development and contributing
-See the [Development Plan](https://github.com/IGPenguin/hmm/projects/1) it is publicly available.<br>
-Feel free to request new features, fixes or submit data sources by creating [Issues](https://github.com/IGPenguin/hmm/issues).
+See the [Development Plan](https://github.com/IGPenguin/hmm/projects/1) to get insight into the upcoming features.<br>
+Feel free to request changes, fixes or submit potential new data sources by creating [Issues](https://github.com/IGPenguin/hmm/issues).
 <br>
 <br>
 Deploy to localhost ```bundle exec jekyll serve``` and test the changes at http://127.0.0.1:4000 via web browser.<br>
