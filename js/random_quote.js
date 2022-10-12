@@ -106,7 +106,7 @@ function getUnseenTopicIndex() {
     do {
       randomTopicIndex = Math.floor(Math.random() * max);
       if (seenIDs.length >= quoteCount){
-        alert("🎉 Wow, great job!\n🎓 You've seen it all.\n♻️ Reshuffling " + seenIDs.length + " cards...")
+        alert("🎉 Wow! Great job, you've seen it all.\n♻️ Reshuffling " + seenIDs.length + " cards...")
         localStorage.setItem("seenIDs", JSON.stringify(""));
         seenIDs = [];
         break;
