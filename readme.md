@@ -11,5 +11,5 @@ See the [Development Plan](https://github.com/IGPenguin/hmm/projects/1) to get i
 Feel free to request changes, fixes or submit potential new data sources by creating [Issues](https://github.com/IGPenguin/hmm/issues).
 <br>
 <br>
-Deploy to localhost ```bundle exec jekyll serve``` and test the changes at http://127.0.0.1:4000 via web browser.<br>
+Deploy to localhost ```bundle exec jekyll serve``` and test via web browser at http://127.0.0.1:4000 .<br>
 Propose your changes for integration by submitting [Pull Requests](https://github.com/IGPenguin/hmm/pulls) that follow [the contribution rules](https://github.com/IGPenguin/hmm/blob/gh-pages/.github/CONTRIBUTING.md "the contribution rules").
