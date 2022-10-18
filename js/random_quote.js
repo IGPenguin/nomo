@@ -78,6 +78,8 @@ function redraw(index){
   markAsSeen(quoteIndex);
   var itemsLeft = quoteCount-seenIDs.length;
   document.getElementById('id_subtitle').innerHTML = "Keep learning and discover other " + itemsLeft + " unique cards.";
+
+  setQuest();
 }
 
 function randomItem(){
@@ -130,4 +132,8 @@ function generateTweet(){
 
 function sayHello(){
   window.open("https://www.linkedin.com/in/intergalacticpenguin/");
+}
+
+function setQuest(){
+  document.getElementById('id_quest_text').innerHTML = "🔴"+"&nbsp;&nbsp;"+"<b>Quest:</b> Study 3 more cards in a row!"
 }

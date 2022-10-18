@@ -15,7 +15,7 @@ layout: default
 <p style="margin-bottom:28px;"></p>
 
 
-<div class="card">
+<div class="card" style="height: 400px; height: 300px">
 <h1 id = "id_emoji"/>
 <h2 id = "id_title"/>
 <h4 id = "id_text"/>
@@ -24,6 +24,12 @@ layout: default
 </div>
 
 <p style="margin:28px;"></p>
+
+<div class="quest">
+<h4 id = "id_quest_text" style="margin-bottom:0px;"/>
+</div>
+
+<p style="margin:22px;"></p>
 
 <button type = "button" id = "button_previous" onClick="previousItem();">⏪&nbsp;&nbsp;Back</button>&nbsp;
 <button type = "button" id = "button" onClick="randomItem();">♻️&nbsp;&nbsp;Randomize</button>&nbsp;
