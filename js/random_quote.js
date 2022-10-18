@@ -135,7 +135,7 @@ function sayHello(){
 }
 
 function setQuest(){
-  var questText = "🔴"+"&nbsp;&nbsp;"+"<b>Quest:</b> View three new unseen cards!"
-  //if questComplete = true > questText = "🟢"+"&nbsp;&nbsp;"+"<b>Quest:</b> All done for today!"
+  var questText = "🔴"+"&nbsp;&nbsp;"+"<b>Quest:</b> View three cards not seen yet."
+  //if questComplete = true > questText = "🟢"+"&nbsp;&nbsp;"+"<b>Reward:</b> Smile! You're all done for today."
   document.getElementById('id_quest_text').innerHTML = questText;
 }
