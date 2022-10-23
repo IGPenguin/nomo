@@ -25,6 +25,12 @@ layout: default
 
 <p style="margin:28px;"></p>
 
+<div class="quest">
+<h4 id = "id_quest_text" style="margin-bottom:0px;"/>
+</div>
+
+<p style="margin:22px;"></p>
+
 <button type = "button" id = "button_previous" onClick="previousItem();">⏪&nbsp;&nbsp;Back</button>&nbsp;
 <button type = "button" id = "button" onClick="randomItem();">♻️&nbsp;&nbsp;Randomize</button>&nbsp;
 <button type = "button" id = "button_next" onClick="nextItem();">Next&nbsp;&nbsp;⏩</button>&nbsp;

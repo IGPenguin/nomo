@@ -1,5 +1,5 @@
 //Init
-
+var redrawnTimes = 0;
 var seenIDsString = JSON.parse(localStorage.getItem("seenIDs"));
 var seenIDs;
 var quoteCount;
@@ -49,6 +49,9 @@ function processData(allText) {
 }
 
 function redraw(index){
+  redrawnTimes++;
+  console.log("redrawn:" + redrawnTimes);
+
   quoteIndex = index;
   selectedLine = String(lines[index]);
 
@@ -78,6 +81,8 @@ function redraw(index){
   markAsSeen(quoteIndex);
   var itemsLeft = quoteCount-seenIDs.length;
   document.getElementById('id_subtitle').innerHTML = "Keep learning and discover other " + itemsLeft + " unique cards.";
+
+  setQuest();
 }
 
 function randomItem(){
@@ -130,4 +135,12 @@ function generateTweet(){
 
 function sayHello(){
   window.open("https://www.linkedin.com/in/intergalacticpenguin/");
+}
+
+function setQuest(){
+  var questTarget = 4;
+  var remainingcards = questTarget-redrawnTimes;
+  var questText = "🔴"+"&nbsp;&nbsp;"+"<b>Daily Quest:</b> Contemplate about " + remainingcards + " more cards."
+  if (remainingcards <= 0) {questText = "🟢"+"&nbsp;&nbsp;"+"<b>Great job! </b> That's it for today, go play outside."}
+  document.getElementById('id_quest_text').innerHTML = questText;
 }

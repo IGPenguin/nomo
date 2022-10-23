@@ -1,5 +1,5 @@
 ## ⚠️ Essential review checklist
-**I truthfully declare that all the following statements are true:**
+**I truthfully declare that the following requirements have been met:**
 - [ ] This pull requests follows [the contribution rules](https://github.com/IGPenguin/hmm/blob/gh-pages/.github/CONTRIBUTING.md "the contribution rules").
 - [ ] New features are fully completed.
 - [ ] File diff has been examined thoroughly.
