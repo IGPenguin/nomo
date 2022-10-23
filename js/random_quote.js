@@ -140,7 +140,7 @@ function sayHello(){
 function setQuest(){
   var questTarget = 4;
   var remainingcards = questTarget-redrawnTimes;
-  var questText = "🔴"+"&nbsp;&nbsp;"+"<b>Daily Quest:</b> Contemplate about " + remainingcards + " more cards."
+  var questText = "🔴"+"&nbsp;&nbsp;"+"<b>Daily Goal:</b> Contemplate about " + remainingcards + " more cards."
   if (remainingcards <= 0) {questText = "🟢"+"&nbsp;&nbsp;"+"<b>Great job! </b> That's it for today, go play outside."}
   document.getElementById('id_quest_text').innerHTML = questText;
 }
