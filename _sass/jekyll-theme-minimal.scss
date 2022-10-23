@@ -259,10 +259,10 @@ select {
   padding: 12px;
   background-color: rgb(40,40,40);
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
-  width: 364px;
   vertical-align: middle;
   font-weight: 200;
   text-align: center;
+  display: table-cell;
 }
 
 // Small screen width overrides
