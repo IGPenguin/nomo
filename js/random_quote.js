@@ -1,5 +1,5 @@
 //Init
-
+var redrawnTimes = 0;
 var seenIDsString = JSON.parse(localStorage.getItem("seenIDs"));
 var seenIDs;
 var quoteCount;
@@ -49,6 +49,9 @@ function processData(allText) {
 }
 
 function redraw(index){
+  redrawnTimes++;
+  console.log("redrawn:" + redrawnTimes);
+
   quoteIndex = index;
   selectedLine = String(lines[index]);
 
@@ -135,7 +138,9 @@ function sayHello(){
 }
 
 function setQuest(){
-  var questText = "🔴"+"&nbsp;&nbsp;"+"<b>Quest:</b> View three cards not seen yet."
-  //if questComplete = true > questText = "🟢"+"&nbsp;&nbsp;"+"<b>Reward:</b> Smile! You're all done for today."
+  var questTarget = 4;
+  var remainingcards = questTarget-redrawnTimes;
+  var questText = "🔴"+"&nbsp;&nbsp;"+"<b>Daily Quest:</b> Contemplate about " + remainingcards + " more cards."
+  if (remainingcards <= 0) {questText = "🟢"+"&nbsp;&nbsp;"+"<b>Great job! </b> That's it for today, go play outside."}
   document.getElementById('id_quest_text').innerHTML = questText;
 }
