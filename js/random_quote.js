@@ -148,7 +148,7 @@ function setQuest(){
 
 function vibrateButtonPress(){
   //Vibrate on button press on Android devices
-  if (!("vibrate" in navigator)){
+  if (!("vibrate" in window.navigator)){
     console.log("Vibrate not supported!");
     return;
   }

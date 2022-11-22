@@ -31,10 +31,10 @@ layout: default
 
 <p style="margin:22px;"></p>
 
-<button type = "button" id = "button_previous" onClick="previousItem();">⏪&nbsp;&nbsp;Back</button>&nbsp;
-<button type = "button" id = "button" onClick="randomItem();">♻️&nbsp;&nbsp;Randomize</button>&nbsp;
-<button type = "button" id = "button_next" onClick="nextItem();">Next&nbsp;&nbsp;⏩</button>&nbsp;
+<button type = "button" id = "button_previous" onTouchEnd="previousItem();">⏪&nbsp;&nbsp;Back</button>&nbsp;
+<button type = "button" id = "button" onTouchEnd="randomItem();">♻️&nbsp;&nbsp;Randomize</button>&nbsp;
+<button type = "button" id = "button_next" onTouchEnd="nextItem();">Next&nbsp;&nbsp;⏩</button>&nbsp;
 <p style="margin:10px;"></p>
-<button type = "button" id = "button_tweet" onClick="sayHello();">👋&nbsp;&nbsp;Say hello.</button>&nbsp;
-<button type = "button" id = "button_tweet" onClick="generateTweet();">🦆&nbsp;&nbsp;Tweet this!</button>&nbsp;
+<button type = "button" id = "button_tweet" onTouchEnd="sayHello();">👋&nbsp;&nbsp;Say hello.</button>&nbsp;
+<button type = "button" id = "button_tweet" onTouchEnd="generateTweet();">🦆&nbsp;&nbsp;Tweet this!</button>&nbsp;
 </center>
