@@ -152,7 +152,7 @@ function vibrateButtonPress(){
     console.log("Vibrate not supported!");
     return;
   }
-  navigator.vibrate([20,20,60]);
+  window.navigator.vibrate([20,20,60]);
 }
 
 function celebrateSeeingItAll(){
