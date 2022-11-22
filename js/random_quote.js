@@ -170,9 +170,9 @@ function registerClickListeners(){
   //Needed beacause onTouchEnd is used for mobile vibrations instead of onclick
   var eventType;
   if (navigator.userAgentData.mobile){
-    eventType = "touchEnd";
+    eventType = 'touchend';
   } else {
-    eventType = "click";
+    eventType = 'click';
   }
   document.getElementById('button_previous').addEventListener(eventType, previousItem);
   document.getElementById('button').addEventListener(eventType, randomItem);
