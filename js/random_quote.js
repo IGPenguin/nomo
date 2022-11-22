@@ -167,7 +167,9 @@ function celebrateSeeingItAll(){
 }
 
 function registerClickListeners(){
-  //Needed beacause onTouchEnd is used for mobile vibrations instead of onclick
+  //Essential, onTouchEnd event type usage is needed on mobile to enable vibration effects
+  //Breaks interactions on loading the page using Dev Tools "mobile preview" followed by switching it off
+
   var eventType;
   if (!(navigator.userAgentData.mobile)){
     eventType = 'click';
