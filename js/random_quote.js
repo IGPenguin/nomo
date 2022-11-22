@@ -12,7 +12,7 @@ if (seenIDsString == null){
 }
 
 //Uncomment and change the int for testing ids higher than that
-//seenIDs = Array.from(Array(104).keys())
+//seenIDs = Array.from(Array(125).keys())
 
 var tweet;
 var lines;
@@ -49,9 +49,6 @@ function processData(allText) {
 }
 
 function redraw(index){
-  redrawnTimes++;
-  console.log("redrawn:" + redrawnTimes);
-
   quoteIndex = index;
   selectedLine = String(lines[index]);
 
@@ -79,17 +76,20 @@ function redraw(index){
   //picker.add(new Option(selectedTopic));
 
   markAsSeen(quoteIndex);
+  setQuest();
+  celebrateSeeingItAll();
+
   var itemsLeft = quoteCount-seenIDs.length;
   document.getElementById('id_subtitle').innerHTML = "Keep learning and discover other " + itemsLeft + " unique cards.";
-
-  setQuest();
 }
 
 function randomItem(){
+  vibrateButtonPress();
   redraw(getUnseenTopicIndex());
 }
 
 function previousItem(){
+  vibrateButtonPress();
   var previousItemIndex = quoteIndex-1;
   if (previousItemIndex < 0){
     previousItemIndex = quoteCount-1;
@@ -98,6 +98,7 @@ function previousItem(){
 }
 
 function nextItem(){
+  vibrateButtonPress();
   var nextItemIndex = quoteIndex+1;
   if (nextItemIndex > quoteCount-1){
     nextItemIndex = 0;
@@ -111,9 +112,7 @@ function getUnseenTopicIndex() {
     do {
       randomTopicIndex = Math.floor(Math.random() * max);
       if (seenIDs.length >= quoteCount){
-        alert("🎉 Wow! Great job, you've seen it all.\n♻️ Reshuffling " + seenIDs.length + " cards...")
-        localStorage.setItem("seenIDs", JSON.stringify(""));
-        seenIDs = [];
+        celebrateSeeingItAll();
         break;
       }
     } while (seenIDs.includes(randomTopicIndex));
@@ -129,18 +128,37 @@ function markAsSeen(seenID){
 }
 
 function generateTweet(){
+  vibrateButtonPress();
   var url = "http://twitter.com/intent/tweet?url=https://igpenguin.github.io/hmm&text=";
   window.open(url+encodeURIComponent(tweet));
 }
 
 function sayHello(){
+  vibrateButtonPress();
   window.open("https://www.linkedin.com/in/intergalacticpenguin/");
 }
 
 function setQuest(){
   var questTarget = 4;
   var remainingcards = questTarget-redrawnTimes;
-  var questText = "🔴"+"&nbsp;&nbsp;"+"<b>Daily Goal:</b> Contemplate about " + remainingcards + " more cards."
-  if (remainingcards <= 0) {questText = "🟢"+"&nbsp;&nbsp;"+"<b>Great job! </b> That's it for today, go play outside."}
+  var questText = "🔴"+"&nbsp;&nbsp;"+"<b>Daily Goal:</b> Inspect and think about " + remainingcards + " more cards."
+  if (remainingcards <= 0) {questText = "🟢"+"&nbsp;&nbsp;"+"<b>Great job! </b> You are making the world a better place."}
   document.getElementById('id_quest_text').innerHTML = questText;
+}
+
+function vibrateButtonPress(){
+  //Vibrate on button press on Android devices
+  if (!("vibrate" in navigator)){
+    console.log("Vibrate not supported!");
+    return;
+  }
+  navigator.vibrate([20,20,60]);
+}
+
+function celebrateSeeingItAll(){
+  if (seenIDs.length >= quoteCount){
+    alert("👑 Wow! You've seen it all.\n♻️ Reshuffling " + seenIDs.length + " cards...")
+    localStorage.setItem("seenIDs", JSON.stringify(""));
+    seenIDs = [];
+  }
 }
