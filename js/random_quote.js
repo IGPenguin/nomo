@@ -132,12 +132,12 @@ function markAsSeen(seenID){
 function generateTweet(){
   vibrateButtonPress();
   var url = "http://twitter.com/intent/tweet?url=https://igpenguin.github.io/nomo&text=";
-  setTimeout(window.open(url+encodeURIComponent(tweet)), 100); //Finish the vibration before redirect
+  window.open(url+encodeURIComponent(tweet));
 }
 
 function sayHello(){
   vibrateButtonPress();
-  setTimeout(window.open("https://www.linkedin.com/in/intergalacticpenguin/"), 100); //Finish the vibration before redirect
+  window.open("https://www.linkedin.com/in/intergalacticpenguin/");
 }
 
 function setQuest(){
