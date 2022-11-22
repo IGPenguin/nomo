@@ -10,7 +10,7 @@ layout: default
 <script src="js/random_quote.js"></script>
 
 <center>
-<h2>💬&nbsp;&nbsp;Welcome to the Hmm!</h2>
+<h2>💬&nbsp;&nbsp;NoMo, the more you know.</h2>
 <h4 id = "id_subtitle"> </h4>
 <p style="margin-bottom:28px;"></p>
 

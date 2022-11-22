@@ -131,7 +131,7 @@ function markAsSeen(seenID){
 
 function generateTweet(){
   vibrateButtonPress();
-  var url = "http://twitter.com/intent/tweet?url=https://igpenguin.github.io/hmm&text=";
+  var url = "http://twitter.com/intent/tweet?url=https://igpenguin.github.io/nomo&text=";
   window.open(url+encodeURIComponent(tweet));
 }
 
