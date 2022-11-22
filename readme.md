@@ -12,4 +12,4 @@ Feel free to request changes, fixes or submit potential new data sources by crea
 <br>
 <br>
 Deploy to localhost ```bundle exec jekyll serve``` and test via web browser at: http://127.0.0.1:4000<br>
-Propose your changes for integration by submitting [pull requests](https://github.com/IGPenguin/hmm/pulls) that follow [the contribution rules](https://github.com/IGPenguin/hmm/blob/gh-pages/.github/CONTRIBUTING.md "the contribution rules").
+Propose your changes for integration by submitting [pull requests](https://github.com/IGPenguin/hmm/pulls) that follow [the contribution rules](https://github.com/IGPenguin/hmm/blob/live/.github/CONTRIBUTING.md "the contribution rules").
