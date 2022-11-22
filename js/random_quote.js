@@ -46,6 +46,7 @@ function processData(allText) {
   }
   }
   redraw(getUnseenTopicIndex());
+  registerDesktopClickListeners();
 }
 
 function redraw(index){
@@ -162,5 +163,16 @@ function celebrateSeeingItAll(){
     alert("👑 Wow! You've seen it all.\n♻️ Reshuffling " + seenIDs.length + " cards...")
     localStorage.setItem("seenIDs", JSON.stringify(""));
     seenIDs = [];
+  }
+}
+
+function registerDesktopClickListeners(){
+  //Needed beacause onTouchEnd is used for mobile vibrations instead of onclick
+  if (!(navigator.userAgentData.mobile)){
+  document.getElementById('button_previous').addEventListener("click", previousItem);
+  document.getElementById('button').addEventListener("click", randomItem);
+  document.getElementById('button_next').addEventListener("click", nextItem);
+  document.getElementById('button_hello').addEventListener("click", sayHello);
+  document.getElementById('button_tweet').addEventListener("click", generateTweet);
   }
 }

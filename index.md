@@ -35,6 +35,6 @@ layout: default
 <button type = "button" id = "button" onTouchEnd="randomItem();">♻️&nbsp;&nbsp;Randomize</button>&nbsp;
 <button type = "button" id = "button_next" onTouchEnd="nextItem();">Next&nbsp;&nbsp;⏩</button>&nbsp;
 <p style="margin:10px;"></p>
-<button type = "button" id = "button_tweet" onTouchEnd="sayHello();">👋&nbsp;&nbsp;Say hello.</button>&nbsp;
+<button type = "button" id = "button_hello" onTouchEnd="sayHello();">👋&nbsp;&nbsp;Say hello.</button>&nbsp;
 <button type = "button" id = "button_tweet" onTouchEnd="generateTweet();">🦆&nbsp;&nbsp;Tweet this!</button>&nbsp;
 </center>
