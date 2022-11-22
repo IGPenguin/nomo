@@ -46,7 +46,7 @@ function processData(allText) {
   }
   }
   redraw(getUnseenTopicIndex());
-  registerDesktopClickListeners();
+  registerClickListeners();
 }
 
 function redraw(index){
@@ -166,13 +166,17 @@ function celebrateSeeingItAll(){
   }
 }
 
-function registerDesktopClickListeners(){
+function registerClickListeners(){
   //Needed beacause onTouchEnd is used for mobile vibrations instead of onclick
-  if (!(navigator.userAgentData.mobile)){
-  document.getElementById('button_previous').addEventListener("click", previousItem);
-  document.getElementById('button').addEventListener("click", randomItem);
-  document.getElementById('button_next').addEventListener("click", nextItem);
-  document.getElementById('button_hello').addEventListener("click", sayHello);
-  document.getElementById('button_tweet').addEventListener("click", generateTweet);
+  var eventType;
+  if (navigator.userAgentData.mobile){
+    eventType = "touchEnd";
+  } else {
+    eventType = "click";
   }
+  document.getElementById('button_previous').addEventListener(eventType, previousItem);
+  document.getElementById('button').addEventListener(eventType, randomItem);
+  document.getElementById('button_next').addEventListener(eventType, nextItem);
+  document.getElementById('button_hello').addEventListener(eventType, sayHello);
+  document.getElementById('button_tweet').addEventListener(eventType, generateTweet);
 }
