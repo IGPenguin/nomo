@@ -86,10 +86,12 @@ function redraw(index){
 }
 
 function randomItem(){
+  vibrateButtonPress();
   redraw(getUnseenTopicIndex());
 }
 
 function previousItem(){
+  vibrateButtonPress();
   var previousItemIndex = quoteIndex-1;
   if (previousItemIndex < 0){
     previousItemIndex = quoteCount-1;
@@ -98,6 +100,7 @@ function previousItem(){
 }
 
 function nextItem(){
+  vibrateButtonPress();
   var nextItemIndex = quoteIndex+1;
   if (nextItemIndex > quoteCount-1){
     nextItemIndex = 0;
@@ -129,11 +132,13 @@ function markAsSeen(seenID){
 }
 
 function generateTweet(){
+  vibrateButtonPress();
   var url = "http://twitter.com/intent/tweet?url=https://igpenguin.github.io/hmm&text=";
   window.open(url+encodeURIComponent(tweet));
 }
 
 function sayHello(){
+  vibrateButtonPress();
   window.open("https://www.linkedin.com/in/intergalacticpenguin/");
 }
 
@@ -143,4 +148,13 @@ function setQuest(){
   var questText = "🔴"+"&nbsp;&nbsp;"+"<b>Daily Goal:</b> Contemplate about " + remainingcards + " more cards."
   if (remainingcards <= 0) {questText = "🟢"+"&nbsp;&nbsp;"+"<b>Great job! </b> That's it for today, go play outside."}
   document.getElementById('id_quest_text').innerHTML = questText;
+}
+
+function vibrateButtonPress(){
+  //Vibrate on button press on Android devices
+  if (!("vibrate" in navigator)){
+    console.log("Vibrate not supported!");
+    return;
+  }
+  navigator.vibrate([20,20,60]);
 }
