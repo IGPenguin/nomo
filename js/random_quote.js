@@ -49,6 +49,8 @@ function processData(allText) {
 }
 
 function redraw(index){
+  redrawnTimes++;
+
   quoteIndex = index;
   selectedLine = String(lines[index]);
 
