@@ -6,7 +6,7 @@ Shuffle through carefully crafted info cards to <b>enhance your soft skills</b>.
 
 ----
 
-### 🏗 Development and contributing
+### 🏗 Contributing and development
 See the [development plan](https://github.com/IGPenguin/nomo/projects/1) to gain insight into the upcoming features.<br>
 Feel free to request changes/fixes or submit potential new data sources by creating [issues](https://github.com/IGPenguin/nomo/issues).
 <br>
