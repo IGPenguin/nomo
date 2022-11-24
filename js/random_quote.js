@@ -12,7 +12,7 @@ if (seenIDsString == null){
 }
 
 //Uncomment and change the int for testing ids higher than that
-//seenIDs = Array.from(Array(125).keys())
+//seenIDs = Array.from(Array(130).keys())
 
 var tweet;
 var lines;
@@ -133,7 +133,8 @@ function markAsSeen(seenID){
 function generateTweet(){
   vibrateButtonPress();
   var url = "http://twitter.com/intent/tweet?url=https://igpenguin.github.io/nomo&text=";
-  window.open(url+encodeURIComponent(tweet));
+  var noTagsTweet=tweet.replace("<b>","").replace("</b>","");
+  window.open(url+encodeURIComponent(noTagsTweet));
 }
 
 function sayHello(){
@@ -160,7 +161,7 @@ function vibrateButtonPress(){
 
 function celebrateSeeingItAll(){
   if (seenIDs.length >= quoteCount){
-    alert("👑 Wow! You've seen it all.\n♻️ Reshuffling " + seenIDs.length + " cards...")
+    alert("🎉 Wow! You finally know everything.\nReshuffling " + seenIDs.length + " cards. Thanks for your support. ❤️")
     localStorage.setItem("seenIDs", JSON.stringify(""));
     seenIDs = [];
   }
