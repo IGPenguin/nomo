@@ -1,10 +1,10 @@
-## NoMo, the more you know.
-
 ### 💚 About this project
 This repository hosts a simple self-development tool written in CSS & JS.<br>
 Shuffle through carefully crafted info cards to <b>enhance your soft skills</b>.<br>
 <br>
-<b>→ Visit the [live page](https://igpenguin.github.io/nomo) to try it yourself.</b> (Best on phone!) <br>
+<b>→ Visit the [live page](https://igpenguin.github.io/nomo) to try it yourself.</b><br>
+
+----
 
 ### 🏗 Development and contributing
 See the [development plan](https://github.com/IGPenguin/nomo/projects/1) to gain insight into the upcoming features.<br>
