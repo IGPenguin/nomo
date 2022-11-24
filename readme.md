@@ -16,6 +16,8 @@ Propose your changes for integration by submitting [pull requests](https://githu
 
 ----
 
-<sup>🙈 Don't judge the <strong>shady code</strong> or <strong>0% decomposition</strong>, this is just for <strong>fun.</strong></sup><br>
-<sup>⭐️ Hit the <strong>star</strong> button to <strong>share some love!</strong></sup><br>
+<sup>🙈 Don't judge the <strong>shady code</strong> or <strong>0% decomposition</strong>, this is just for <strong>fun.</strong><br></sup>
+<sup>⭐️ Hit the <strong>star</strong> button to <strong>share some love!</strong><br></sup>
+<sup>📱 Also <strong>visit my [mobile toolkit](https://github.com/IGPenguin/mobile-toolkit)</strong> project.<br></sup>
 <sup>✉️ Let's <strong>chat</strong> on [LinkedIn](https://www.linkedin.com/in/intergalacticpenguin/)!</sup>
+
