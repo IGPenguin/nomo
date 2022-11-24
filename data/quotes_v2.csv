@@ -11,7 +11,7 @@ id;topic;emoji;title;text
 9;Effective Teamwork;🤝;Put your team first and build trust.;Prioritise team goals over your own.<br>Reveal any personal gains from the shared effort.<br>Express appreciation of others' work.
 10;Effective Teamwork;☑️;Underpromise and overdeliver.;Acknowledge existing constraints.<br>Keep your commitments.<br>Deliver valuable results.<br>Communicate updates regularly.
 11;Effective Teamwork;👍;Demonstrate positivity<br>in any situation.;Highlight teammates' strengths.<br>Refrain from gossiping.<br>Avoid complaining.
-12;Effective Teamwork;🎖;Be respectful to colleagues.;People remember how you make them feel.<br>Avoid making things personal.<br>Respect set boundaries.<br>Don't waste their time.
+12;Effective Teamwork;🎖;Be respectful to your colleagues.;People remember how you make them feel.<br>Avoid making things personal.<br>Respect set boundaries.<br>Don't waste their time.
 13;Effective Teamwork;🚀;Ideal teammate is adequately proactive.;Plan ahead and anticipate the roadblocks.<br>Think in a context of the whole organisation.<br>Help to get back on track if you are losing direction.<br>Avoid being too intrusive.
 14;Effective Teamwork;👥;Stay collaborative regardless<br>of your opinion.;Encourage the participation of others.<br>Support team-based decisions.<br>Share your ideas and concerns.
 15;Effective Teamwork;🎀;Build your professional reputation.;Continuously develop your skills.<br>Fulfill deadlines and maintain high quality.<br>Speak and dress to represent the team positively.
@@ -20,19 +20,19 @@ id;topic;emoji;title;text
 18;Improving Judgement;⚖️;Data + Information + Analysis<br>= Best judgement;Find confirming and disconfirming data.<br>Look at the forest and also at a single tree.<br>What may be the best and worst possible outcome?
 19;Improving Judgement;🔎;Judge trustworthiness not likeability.;Does the person meet the expectations?<br>Does the person fulfill their commitments?<br>Has the person ever cheated or lied?
 20;Improving Judgement;🧘‍♀️;Good judgement requires clean head.;Smile to reduce body stress response.<br>Write notes by hand and review them.<br>Let others know if you need to slow down.
-21;Improving Judgement;❓;Judge your arguments<br>with these questions.;Did I highlight a common ground?<br>Did I make my main claim clear?<br>Did I provide sufficient evidence?<br>Did I omit personal attacks?
+21;Improving Judgement;❓;Judge your own arguments<br>using the right questions.;Did I highlight a common ground?<br>Did I make my main claim clear?<br>Did I provide sufficient evidence?<br>Did I omit personal attacks?
 22;Improving Judgement;🔮;How to judge the future?;Avoid saying "I knew it all along".<br>Pick three industry leaders.<br>Create a question wishlist.<br>Ask the leaders the questions.<br>Integrate various sources and formats.
 23;Improving Judgement;🔄;Become more self-aware.;What type of people do I prefer to work with?<br>What makes me stop listening to people?<br>What type of people prefer to work with me?<br>What makes people stop listening me?
 24;Improving Judgement;🧐;Avoid jumping to conclusions.;Balance negative thoughts with gratitude.<br>Secret does not automatically mean important.<br>Confident does not mean competent.
 25;Critical Thinking;🕳;Don’t rush to solve a problem.<br>Stop and think first.<br>Dig down to avoid solving symptoms.<br>Find and address the root cause.
-26;Critical Thinking;🧨;Think about your<br>recommended solutions.;What problems might they cause?<br>Will it actually help the situation?<br>Review your approach with others.
+26;Critical Thinking;🧨;Think twice about your<br>recommended solutions.;What problems might they cause?<br>Will it actually help the situation?<br>Review your approach with others.
 27;Critical Thinking;🧇;Break big problems<br>into smaller ones.;Then break those into smaller as well.<br>Continue until the solutions become obvious.<br>Anticipate unintended consequences.
 28;Critical Thinking;📝;Define the problem statement.;Outline essential goals and main metrics.<br>Identify key stakeholders and define success.<br>Map boundaries and constraints.<br>Articulate assumptions and create a timeline.
 29;Critical Thinking;🤷;Seek to understand<br>why a solution is needed.;What is really driving the request?<br>Why do people care about it?<br>Is it really a serious problem?
 30;Critical Thinking;🗂;Examine the past attempts<br>to solve the problem.;Who and how tried to solve it?<br>What were the limitations?<br>What is different now?
 31;Critical Thinking;📈;Use the “80/20” rule.;20% of input leads to 80% of the results.<br>Analyse and prioritise opportunities.<br>What are the major impact drivers?
-32;Critical Thinking;🔜;Ask the “7 so-whats”.;Ask about the action consequences.<br>Spot any new opportunities.<br>Avoid causing unexpected problems.
-33;Critical Thinking;🔬;Ask “why” 5+ times.;The root cause is usually masked by other issues.<br>Ask why something happens and think about the reasons.<br>Ask again and again until you get to the core.
+32;Critical Thinking;🔜;Ask yourself “So what?” 5+ times.;Ask about the action consequences.<br>Spot any new opportunities or threats.<br>Avoid causing unexpected problems.
+33;Critical Thinking;🔬;Ask yourself “why” 5+ times.;The root cause is usually masked by other issues.<br>Ask why something happens to think about the reasons.<br>Ask again and again until you get to the core.
 34;Critical Thinking;🤨;How to do successful analysis?<br>Ask yourself questions.;What am I proving or disproving?<br>Will it be beneficial?<br>Will it have enough impact?<br>Do the answers support my solutions?
 35;Critical Thinking;💭;Apply critical thinking every day.;Avoid following "That's the way it's always done”.<br>Identify a problem and break it down.<br>Focus on the meaningful.<br>Look for new solutions.
 36;Design Thinking;✨;Reduce common risks<br>related to public releases.;It’s all about understanding customers.<br>Make sure the product is a good fit.<br>Do your research.
@@ -61,7 +61,7 @@ id;topic;emoji;title;text
 59;Transparent Communication;❤️‍🩹;Learn to accept criticism.;You won't be always popular.<br>Sometimes the truth hurts.<br>Give others space to express themselves.<br>Avoid being defined by circumstances.
 60;Making Key Decisions;🚦‍;How do good decisions look like?;They achieve the desired outcome.<br>They fit the culture and context.<br>Team can commit to them.
 61;Making Key Decisions;👤;When to decide independently?;The outcome is likely to be supported.<br>All key information is available.<br>The problem is not shared by others.<br>It is an urgent matter.
-62;Making Key Decisions;👌;When to make a collaborative decision?;The problem is shared by others.<br>Additional information is required.<br>Time frame is reasonable.
+62;Making Key Decisions;👌;When to decide collaboratively?;The problem is shared by others.<br>Additional information is required.<br>Time frame is reasonable.
 63;Making Key Decisions;🎯;How to get critical information?;Has something similar been done before?<br>Seek insight from the previously involved.<br>Who can bring a different perspective?
 64;Making Key Decisions;🙌;How to decide collaboratively?;Don't ask if you are already decided.<br>Give people enough time to respond.<br>Keep an open mind and don't judge.<br>Give everyone a chance to express.
 65;Making Key Decisions;⏳;Avoid waiting too long.;Remember the main purpose and impact.<br>Is it desirable to decide ASAP?<br>Is the decision reversible? Go on.<br>
@@ -87,7 +87,7 @@ id;topic;emoji;title;text
 85;Management Foundations;🎉;Delegate tasks successfully.;Ask "why" and "what" are you delegating.<br>Are you willing to let this go?<br>Who is the best person to do it?<br>Provide essential support.<br>Check in regularly.
 86;Management Foundations;🤨;How to delegate tasks?;Set an objective and provide context + timeline.<br>Provide expectations and describe the success.<br>Adjust the priorities relative to existing tasks.<br>Cooperate on building a specific plan.
 87;Management Foundations;🗣;Organise successful meetings.<br>State "why" are you meeting.<br>Provide the expected outcomes.<br>Focus on reaching decisions.<br>Talk less and ask more.
-88;Management Foundations;🔗;Build a strong relationship<br>with your team.;Get to know their interests and passions.<br>Search for a common ground.<br>Follow up on discussed topics.<br>Smile!
+88;Management Foundations;🔗;Build strong relationship<br>with your team.;Get to know their interests and passions.<br>Search for a common ground.<br>Follow up on discussed topics.<br>Smile!
 89;Management Foundations;⏳;Manage your time wisely.;Work on a single task at a time.<br>Keep the big objectives in focus.<br>Schedule the most important work.<br>Respond to e-mails in batches.
 90;Management Foundations;🪜;Manage up successfully.;Understand your supervisor's goals.<br>Connect your requests to their goals.<br>Create conversations by asking questions.<br>Focus on the common ground more than on yourself.
 91;Management Foundations;📚;Have a learning mindset.;Ask follow up questions.<br>Reflect on your learnings.<br>Ask for and be open to feedback.<br>Don't agonize your mistakes.
