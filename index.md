@@ -19,7 +19,6 @@ layout: default
 <h1 id = "id_emoji"/>
 <h2 id = "id_title"/>
 <h4 id = "id_text"/>
-<br>
 <h5 id = "id_topic"/>
 </div>
 
@@ -34,7 +33,9 @@ layout: default
 <button type = "button" id = "button_previous">⏪&nbsp;&nbsp;Back</button>&nbsp;
 <button type = "button" id = "button">♻️&nbsp;&nbsp;Randomize</button>&nbsp;
 <button type = "button" id = "button_next">Next&nbsp;&nbsp;⏩</button>&nbsp;
+
 <p style="margin:10px;"></p>
+
 <button type = "button" id = "button_hello">👋&nbsp;&nbsp;Say hello.</button>&nbsp;
 <button type = "button" id = "button_tweet">🦆&nbsp;&nbsp;Tweet this!</button>&nbsp;
 </center>
