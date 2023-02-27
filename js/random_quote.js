@@ -83,7 +83,7 @@ function redraw(index){
   celebrateSeeingItAll();
 
   var itemsLeft = quoteCount-seenIDs.length;
-  document.getElementById('id_subtitle').innerHTML = "Check out " + itemsLeft + " tips for mastering teamwork.";
+  document.getElementById('id_subtitle').innerHTML = "Check out these " + itemsLeft + " slick suggestions.";
 }
 
 function randomItem(){
@@ -145,8 +145,8 @@ function sayHello(){
 function setQuest(){
   var questTarget = 4;
   var remainingcards = questTarget-redrawnTimes;
-  var questText = "🔴"+"&nbsp;&nbsp;"+"<b>Current Goal:</b> Examine another " + remainingcards + "  cards."
-  if (remainingcards <= 0) {questText = "🟢"+"&nbsp;&nbsp;"+"<b>Awesome! </b> You've made this world a better place."}
+  var questText = "🔴"+"&nbsp;&nbsp;"+"<b>Daily Goal:</b> Reveal another " + remainingcards + " unique cards."
+  if (remainingcards <= 0) {questText = "🟢"+"&nbsp;&nbsp;"+"<b>Well done! </b> You've made this world a better place."}
   document.getElementById('id_quest_text').innerHTML = questText;
 }
 

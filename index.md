@@ -10,7 +10,7 @@ layout: default
 <script src="js/random_quote.js"></script>
 
 <center>
-<h2>🧠&nbsp;&nbsp;You've come to the right place.</h2>
+<h2>🧠&nbsp;&nbsp;Welcome, seeking teamwork training?</h2>
 <h4 id = "id_subtitle"> </h4>
 <p style="margin-bottom:28px;"></p>
 
