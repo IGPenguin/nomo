@@ -55,17 +55,10 @@ function redraw(index){
   quoteIndex = index;
   selectedLine = String(lines[index]);
 
-  var selectedTopicWithKey = String(selectedLine.split(",")[1]);
-  selectedTopic = String(selectedTopicWithKey.split(":")[1]);
-
-  var selectedTitleWithKey = String(selectedLine.split(",")[3]);
-  var selectedTitle = String(selectedTitleWithKey.split(":")[1]);
-
-  var selectedTextWithKey = String(selectedLine.split(",")[4]);
-  var selectedText = String(selectedTextWithKey.split(":")[1]);
-
-  var selectedEmojiWithKey = String(selectedLine.split(",")[2]);
-  var selectedEmoji = String(selectedEmojiWithKey.split(":")[1]);
+  var selectedTopic = String(selectedLine.split(",")[1].split(":")[1]);
+  var selectedTitle = String(selectedLine.split(",")[3].split(":")[1]);
+  var selectedText = String(selectedLine.split(",")[4].split(":")[1]);
+  var selectedEmoji = String(selectedLine.split(",")[2].split(":")[1]);
 
   tweet = String(selectedEmoji + " " + selectedTitle + "\n\n").replaceAll("<br>"," ") + String(selectedText).replaceAll("<br>","\n") + "\n\n" + selectedTopic + " at:";
 
@@ -73,10 +66,6 @@ function redraw(index){
   document.getElementById('id_title').innerHTML = selectedTitle;
   document.getElementById('id_text').innerHTML = selectedText;
   document.getElementById('id_topic').innerHTML = "»  " + selectedTopic + " «";
-
-  //var picker = document.getElementById('select_topic');
-  //picker.innerHTML = selectedTopic + " ▾";
-  //picker.add(new Option(selectedTopic));
 
   markAsSeen(quoteIndex);
   setQuest();
