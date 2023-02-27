@@ -83,7 +83,7 @@ function redraw(index){
   celebrateSeeingItAll();
 
   var itemsLeft = quoteCount-seenIDs.length;
-  document.getElementById('id_subtitle').innerHTML = "Keep learning and discover other " + itemsLeft + " unique cards.";
+  document.getElementById('id_subtitle').innerHTML = "Check out " + itemsLeft + " tips for mastering teamwork.";
 }
 
 function randomItem(){
@@ -145,8 +145,8 @@ function sayHello(){
 function setQuest(){
   var questTarget = 4;
   var remainingcards = questTarget-redrawnTimes;
-  var questText = "🔴"+"&nbsp;&nbsp;"+"<b>Daily Goal:</b> Inspect and think about " + remainingcards + " more cards."
-  if (remainingcards <= 0) {questText = "🟢"+"&nbsp;&nbsp;"+"<b>Great job! </b> You are making the world a better place."}
+  var questText = "🔴"+"&nbsp;&nbsp;"+"<b>Current Goal:</b> Examine another " + remainingcards + "  cards."
+  if (remainingcards <= 0) {questText = "🟢"+"&nbsp;&nbsp;"+"<b>Awesome! </b> You've made this world a better place."}
   document.getElementById('id_quest_text').innerHTML = questText;
 }
 
@@ -161,7 +161,7 @@ function vibrateButtonPress(){
 
 function celebrateSeeingItAll(){
   if (seenIDs.length >= quoteCount){
-    alert("🎉 Wow! You finally know everything.\nReshuffling " + seenIDs.length + " cards. Thanks for your support. ❤️")
+    alert("༼ つ ◕_◕ ༽つ  Wow! You finally know everything.\n"+"Support by leaving a star on GitHub. ⭐️")
     localStorage.setItem("seenIDs", JSON.stringify(""));
     seenIDs = [];
   }
